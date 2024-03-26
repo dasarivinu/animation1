@@ -1,0 +1,12 @@
+div{
+    border: 5px solid rgb(163, 12, 201);
+    height: 50px;
+    width: 50px;
+    border-radius: 1em;
+    position: absolute;
+    animation: move 2s linear infinite alternate-reverse;
+}
+@keyframes move {
+    from {left: 0px;background-color: aqua;}
+    to {left: 100px;background-color: blueviolet;}
+}
